@@ -29,6 +29,8 @@ urlpatterns = [
     path('dashboard_crypto',views.CryptoView.as_view(),name='dashboard_crypto'),
     path('dashboard_blog',views.BlogView.as_view(),name='dashboard_blog'),
     path('dashboard_jobs',views.JobsView.as_view(),name='dashboard_jobs'),
+    # Add by Pure
+    path('dashboard_pure',views.PureView.as_view(),name='dashboard_pure'),
     # Calender View
     path('calendar',views.CalendarView.as_view(),name='calendar'),
     path('full-calendar',views.CalendarFullView.as_view(),name='full-calendar'),

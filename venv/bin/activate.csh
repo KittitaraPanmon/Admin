@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/kittitara/Desktop/themeforest-8HSTBWfL-skote-html-django-admin-dashboard-template/Skote_Django_v4.1.0/Admin/venv"
+setenv VIRTUAL_ENV "/home/kittitara/Desktop/themeforest-8HSTBWfL-skote-html-django-admin-dashboard-template/Skote_test/Admin/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

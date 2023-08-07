@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    
     # Local App
     'layout',
     'ecommerce',
@@ -64,6 +65,7 @@ INSTALLED_APPS = [
     'components',
     # Third Party App
     'crispy_forms',
+    'crispy_bootstrap4',
     'django.contrib.sites',
     'django.contrib.humanize',
     'allauth',
@@ -74,6 +76,7 @@ INSTALLED_APPS = [
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -203,11 +206,11 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "smtp.mailtrap.io"
-EMAIL_PORT = 2525
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "51a7bd029959fb"
-EMAIL_HOST_PASSWORD = "8d0f17cedb0466"
+EMAIL_HOST = "smtp.gmail.com" 
+EMAIL_USE_TLS = True 
+EMAIL_PORT = 587 
+EMAIL_HOST_USER = "kittitarapanmon5@gmail.com" 
+EMAIL_HOST_PASSWORD = "pure6245"
 DEFAULT_FROM_EMAIL = "51a7bd029959fb"
 
 LOGIN_REDIRECT_URL = '/'    
@@ -233,3 +236,6 @@ SOCIALACCOUNT_PROVIDERS = {
         }
     }
 }
+
+
+

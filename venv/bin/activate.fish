@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/kittitara/Desktop/themeforest-8HSTBWfL-skote-html-django-admin-dashboard-template/Skote_Django_v4.1.0/Admin/venv"
+set -gx VIRTUAL_ENV "/home/kittitara/Desktop/themeforest-8HSTBWfL-skote-html-django-admin-dashboard-template/Skote_test/Admin/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/kittitara/Desktop/themeforest-8HSTBWfL-skote-html-django-admin-dashboard-template/Skote_Django_v4.1.0/Admin/venv"
+VIRTUAL_ENV="/home/kittitara/Desktop/themeforest-8HSTBWfL-skote-html-django-admin-dashboard-template/Skote_test/Admin/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
